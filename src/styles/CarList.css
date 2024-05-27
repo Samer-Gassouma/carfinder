@@ -1,0 +1,22 @@
+.car-list-container {
+    padding: 20px;
+  }
+  
+  .car-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .car-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .car-item img {
+    max-width: 100%;
+    height: auto;
+  }

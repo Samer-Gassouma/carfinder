@@ -1,0 +1,16 @@
+.car-details-container {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .car-details-container img {
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .car-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }

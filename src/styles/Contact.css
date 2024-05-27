@@ -1,0 +1,28 @@
+.contact-container {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-container label {
+    margin-bottom: 5px;
+  }
+  
+  .contact-container input,
+  .contact-container textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .contact-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
